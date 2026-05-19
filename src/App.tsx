@@ -1,11 +1,11 @@
-import UseState from "./components/UseState/UseState";
 import "./App.css";
+import UseReducer from "./components/UseReducer/UseReducer";
 
 function App() {
   return (
     <>
       <section id="center">
-        <UseState />
+        <UseReducer />
       </section>
     </>
   );

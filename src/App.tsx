@@ -1,11 +1,11 @@
 import "./App.css";
-import UseArrayState from "./components/ArrayUseState/ArrayUseState";
+import Parent from "./components/Parent Child/Parent";
 
 function App() {
   return (
     <>
       <section id="center">
-        <UseArrayState />
+        <Parent />
       </section>
     </>
   );

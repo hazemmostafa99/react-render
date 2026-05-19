@@ -1,14 +1,12 @@
-import ParentOne from "./components/Optimization/ParentOne";
+import ParentOne from "./components/Optimization/Memo/ParentOne";
+
 import "./App.css";
-import ChildOne from "./components/Optimization/ChildOne";
 
 function App() {
   return (
     <>
       <section id="center">
-        <ParentOne>
-          <ChildOne />
-        </ParentOne>
+        <ParentOne />
       </section>
     </>
   );

@@ -1,5 +1,5 @@
 import "./App.css";
-import UseArrayState from "./components/UseArrayState/UseArrayState";
+import UseArrayState from "./components/ArrayUseState/ArrayUseState";
 
 function App() {
   return (

@@ -10,7 +10,7 @@ function ChildA() {
     </div>
   );
 }
-export const MemoizedChildA = memo(ChildA);
+// export const MemoizedChildA = memo(ChildA);
 export function ChildB() {
   console.log("Child B Render");
   return (

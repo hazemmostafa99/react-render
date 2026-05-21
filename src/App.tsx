@@ -1,11 +1,11 @@
-import ContextParent from "./components/Context/ContextParent";
 import "./App.css";
+import UseEffect from "./components/UseEffect/UseEffect";
 
 function App() {
   return (
     <>
       <section id="center">
-        <ContextParent />
+        <UseEffect />
       </section>
     </>
   );
